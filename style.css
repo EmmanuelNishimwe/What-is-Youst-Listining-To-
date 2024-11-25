@@ -1,0 +1,387 @@
+
+  .LCfrm {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+  }
+  .ImageBg {
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(50px);
+    background-image: url(Img/BackGrounds/download.jfif);
+    background-position: 50%,50%;
+    background-size: cover;
+  }
+  
+  .MiddleSection {
+    width: 15%;
+    min-height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+
+  .TopFrm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 5vh;
+    height: 157px;
+    width: 100%;
+  }
+  
+  .Date_Wrapper {
+    height: 27px;
+    overflow: hidden;
+    align-self: stretch;
+    width: 100%;
+    filter: drop-shadow(black 0rem 0rem 50px);
+  }
+  
+  .Date {
+    width: 100%;
+    height: 30px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    
+  }
+  
+  .Time_Wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    align-self: stretch;
+    width: 100%;
+    filter: drop-shadow(black 0rem 0rem 50px);
+  }
+  
+  .Time {
+    margin-top: -15.00px;
+    margin-bottom: -13.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    
+  }
+
+  .MidFrm {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1vh;
+    width: 100%;
+  }
+
+  .MusicImage {
+    background-image: url(Img/BackGrounds/download.jfif);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    width: calc(80%*1.25);
+    border-radius: 10px;
+
+  }
+
+  .MusicPlayer {
+    background-color:rgba(0, 0, 0, 0.5) ;
+    background-position: 50%,50%;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    aspect-ratio: 2/1;
+    width: calc(100%*1.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Bars {
+    width: 7.5%;
+    height: 12.5%;
+    position: absolute;
+    top: 12.5%;
+    right: 7.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .BarL {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10%;
+    height: 50%;
+    border-radius: 100px;
+  }
+
+
+  .MPT1 {
+    width: 80%;
+    height: 1.25vh;
+    text-align: center;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 1.25vw;
+    color: #ffffff;
+    margin-top: 5%;
+
+  }
+  .MPT2 {
+    width: 100%;
+    height: 1.25vh;
+    text-align: center;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight:lighter;
+    font-size: 1.25vw;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: -2%;
+  }
+
+  .MusicProg {
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+  }
+  .TimePos {
+    
+    width: 15%;
+    height: 200%;
+    margin-left: 0.5vw;
+    text-align: center;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight:lighter;
+    color: #ffffff;
+    
+  }
+  .BarPar {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 62.5%;
+    height: 80%;
+    border-radius: 50px;
+    overflow: hidden;
+    
+  }
+
+  .Bar {
+    width: 50%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .TotalTime {
+    width: 15%;
+    height: 200%;
+    margin-right: 0.5vw;
+    text-align: center;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight:lighter;
+    color: #ffffff;
+  }
+
+  .Buttons {
+    width: 100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+  }
+
+  .B1 {
+    aspect-ratio: 1/1;
+    width: 7.5%;
+    background-image: url(Img/Icons/4x/Asset\ 3@4x.png);
+    background-size:contain;
+    background-position: 50%,50%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+  }
+  .B2 {
+    aspect-ratio: 1/1;
+    width: 10%;
+    background-image: url(Img/Icons/4x/Asset\ 2@4x.png);
+    background-size:contain;
+    background-position: 50%,50%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+  }
+  .B3 {
+    aspect-ratio: 1/1;
+    width: 10%;
+    background-image: url(Img/Icons/4x/Asset\ 1@4x.png);
+    background-size:contain;
+    background-position: 50%,50%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+  }
+  .B4 {
+    aspect-ratio: 1/1;
+    width: 10%;
+    background-image: url(Img/Icons/4x/Asset\ 5@4x.png);
+    background-size:contain;
+    background-position: 50%,50%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+  }
+  .B5 {
+    aspect-ratio: 1/1;
+    width: 7.5%;
+    background-image: url(Img/Icons/4x/Asset\ 4@4x.png);
+    background-size:contain;
+    background-position: 50%,50%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+  }
+
+  .Text {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight:lighter;
+    font-size: small;
+    color: #ffffff;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .BtmFrm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    height: 152px;
+  }
+  
+  .UserIcon_Wrapper {
+    background-color: #ffffff4f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0px 0px;
+    flex: 0 0 auto;
+    top: -50%;
+    left: 50%;
+    width: 25%;
+  }
+  
+  .UserIcon {
+    flex: 1;
+    flex-grow: 1;
+    aspect-ratio: 1/1;
+    width: 50px;
+    border-radius: 50px;
+    background-image: url(Img/UserIcons/Logo.png);
+    background-size: cover;
+  }
+  
+  .UserName_Wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .UserName {
+    width: 100%;
+    height: 100%;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PassWord_Wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 53px;
+    width: 100%;
+  }
+  
+  .PassWord {
+    margin-right: -1.00px;
+    background-color: #ffffff4f;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  
+  .Noti_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    align-self: center;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .Noti {
+    height: 23px;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 12.4px;
+  }
+  
+  .Me {
+    filter: drop-shadow(black 0rem 0rem 25px);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight:bolder;
+    font-size: normal;
+    color: #ffffff;
+  }
